@@ -1,0 +1,35 @@
+{
+  "name": "backend-postgres",
+  "version": "1.0.0",
+  "description": "Backend Server with PostgreSQL DB",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon ./build/index.js",
+    "start": "tsc && npm run dev"
+  },
+  "keywords": [
+    "backend",
+    "server",
+    "postgres",
+    "postgreSQL"
+  ],
+  "author": "Ahmed Sayed <ahmedll.shafiey@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "pg": "^8.12.0",
+    "reflect-metadata": "^0.2.2",
+    "sequelize": "^6.37.3",
+    "sequelize-typescript": "^2.1.6",
+    "zod": "^3.23.8"
+  }
+}
